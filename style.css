@@ -1,0 +1,100 @@
+/* Apply border-box sizing to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Main page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+/* Main to-do list container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Main title */
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Student name text */
+.student {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Task input field */
+#taskInput {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* General button styling */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Add task button */
+form button {
+  background: #222;
+  color: white;
+}
+
+/* Feedback message area */
+#feedback {
+  min-height: 22px;
+  margin: 10px 0;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+/* Individual task row */
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Task text */
+li span {
+  flex: 1;
+}
+
+/* Delete button */
+li button {
+  background: #e7e7e7;
+}
